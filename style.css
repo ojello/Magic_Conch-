@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:azure;
+    background-color:cadetblue;
+}
+
+/* Layout */
+header{
+    margin-top: 50px;
+    position: relative;
+    height: 35vh;
+    /* height: 35vh;
+    border-bottom: 7px solid white; */
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 2px 2px grey;
+
+}
+
+main {
+    height: 65vh;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left {
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right {
+    width: 52rem;
+    font-size: 2rem;
+}
+
+.btn {
+    border: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 3rem;
+    font-family: inherit;
+    padding: 2rem 3rem;
+    cursor: pointer;
+    border-radius: 80px;
+    margin-bottom: 45px;
+  }
+
+
+  .btn:hover {
+    background-color: peachpuff;
+  }
+
+
+.message {
+    margin-bottom: 8rem;
+    height: 3rem;
+    font-size: 40px;
+  }
+
+
+.question {
+    margin-top: 40px;
+    background: none;
+    border: 5px solid #eee;
+    font-family: inherit;
+    color: inherit;
+    font-size: 5rem;
+    padding: 2.5rem;
+    width: 40rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 3rem;
+  }
+
+  p {
+      font-size: 30px;
+  }
+
+
+  .message{
+      margin-top: 30px;
+      font-size: 20px;
+      text-align: center;
+  }
+
+  .user-question {
+      font-size: 45px;
+  }
+
+
+  /* bubble */
+
+
+
+/* CSS talk bubble */
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: auto;
+	background-color: lightyellow;
+}
+.border{
+  border: 8px solid #666;
+}
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+
+}
+
+img {
+    border-radius: 30px;
+}
